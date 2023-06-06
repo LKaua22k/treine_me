@@ -50,9 +50,10 @@ ul{
 
 ul li a{
     font-size: 1.8rem;
+    font-family: var(--font-Mulish);
+    font-weight: 700;
     color: var(--title-color);
     opacity: 0.5;
-    font-weight: bold;
     transition: 0.5s;
     line-height: 23px;
 }
@@ -61,6 +62,7 @@ ul li a:hover{
     color: var(--title-color);
     opacity: 1;
     transition: 0.5s;
+
 }
 
 main{

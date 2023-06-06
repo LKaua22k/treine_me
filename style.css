@@ -16,6 +16,7 @@ a{
     --title-color:#1F1534;
     --span-color:#89C5CC;
     --button-color:#69B99D;
+    --text-color:#7D7987;
 
     --font-Open:'Open Sans', sans-serif;
     --font-Mulish:'Mulish', sans-serif;
@@ -72,3 +73,74 @@ main{
     margin-top: 5.5rem;
 }
 
+#texts h1{
+    font-size: 4.9rem;
+    font-weight: 400;
+    font-family: var(--font-Mulish);
+    line-height: 5.6rem;
+    color: var(--title-color);
+    max-width: 48.9rem;
+}
+
+#texts h1 span{
+    color: var(--span-color);
+    font-weight: 700;
+}
+
+#texts p{
+    text-align:left;
+    max-width: 44rem;
+    font-size: 1.4rem;
+    font-family: var(--font-Open);
+    font-weight: 400;
+    line-height: 2.8rem;
+    margin: 4rem 0;
+    color: var(--text-color);
+}
+#texts button{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+    background: var(--button-color);
+    border-radius: 0.4rem;
+    border: 1px solid var(--button-color);
+    padding: 1.4rem 3.2rem 1.5rem 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: var(--font-Open);
+    line-height: 2.2rem;
+    color:#ffff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#texts button:hover{
+    border: 1px solid var(--button-color);
+    color: var(--button-color);
+    background: none;
+    transition: 0.5s;
+}
+
+#texts button i{
+    font-size: 2.4rem;
+}
+
+footer{
+    text-align: center;
+    margin-top: 8.2rem;
+}
+
+footer p{
+    color: #000000;
+    font-family: var(--font-Open);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+footer a{
+    color: #000000;
+    font-family: var(--font-Open);
+    font-size: 1.4rem;
+    font-weight: 700;
+}

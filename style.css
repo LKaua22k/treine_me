@@ -12,6 +12,7 @@ a{
     text-decoration: none;
 }
 
+
 :root{
     --title-color:#1F1534;
     --span-color:#89C5CC;
@@ -40,6 +41,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5.5rem;
 }
 
 ul{
@@ -50,7 +52,7 @@ ul{
 }
 
 ul li a{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: var(--font-Mulish);
     font-weight: 700;
     color: var(--title-color);
@@ -70,13 +72,12 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5.5rem;
 }
 
 #texts h1{
     font-size: 4.9rem;
-    font-weight: 400;
     font-family: var(--font-Mulish);
+    font-weight: 400;
     line-height: 5.6rem;
     color: var(--title-color);
     max-width: 48.9rem;
@@ -84,7 +85,7 @@ main{
 
 #texts h1 span{
     color: var(--span-color);
-    font-weight: 700;
+    font-weight: bold;
 }
 
 #texts p{
@@ -128,19 +129,56 @@ main{
 
 footer{
     text-align: center;
-    margin-top: 8.2rem;
+    margin-top: 8rem; 
 }
 
 footer p{
     color: #000000;
     font-family: var(--font-Open);
     font-size: 1.4rem;
+    line-height: 2.2rem;
     font-weight: 400;
 }
 
 footer a{
     color: #000000;
-    font-family: var(--font-Open);
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+@media (max-width: 1035px) {
+    .container{
+        margin: 0 3rem;
+    }
+}
+
+@media (max-width: 682px) {
+    :root{
+        font-size: 60%;
+    }
+
+    .container{
+        margin: 0 3rem;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    #texts{
+        text-align: center;
+    }
+
+    #texts p{
+        text-align: center;
+    }
+
+    #texts button{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    img{
+        width: 30rem;
+    }
 }

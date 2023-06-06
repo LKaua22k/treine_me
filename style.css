@@ -146,6 +146,12 @@ footer a{
     font-weight: 700;
 }
 
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
 @media (max-width: 1035px) {
     .container{
         margin: 0 3rem;
